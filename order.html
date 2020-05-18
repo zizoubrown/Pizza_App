@@ -24,5 +24,140 @@
                 </div>
             </div>
         </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <section class="order-form">
+                    <div id="inputs">
+                        <form id="myForm">
+                            <h1 class="text-white hc-heading">Order Your Pizza Now</h1>
+        <div class="pp-background">
+          <div id="spw" class="container-fluid text-white">
+            <h1 class="hc-heading">Choose Pizza Size</h1>
+            <form action="">
+              <div id="spw-input">
+                <select id="size-selector" class="size-selector" >
+                    <option value="size"
+                    >size
+                </option>
+                  
+                  <option value="large"
+                    >Large Pizza Ksh.<span class="large-s-price"
+                      >900</span
+                    ></option
+                  >
+                  <option value="medium"
+                    >Medium Pizza Ksh.<span class="large-s-price"
+                      >700</span
+                    ></option
+                  >
+                  <option value="small"
+                    >Small Pizza Ksh.<span class="large-s-price"
+                      >500</span
+                    ></option
+                  >
+                </select>
+              </div>
+            </form>
+          </div>
+          <div id="spw" class="container-fluid text-white mt-5">
+            <h1 class="hc-heading">Choose Pizza Crust</h1>
+            <form action="">
+              <div id="spw-input">
+                <select id="crust-selector" class="size-selector">
+                    <option value="size"
+                    >crust
+                </option>
+                  <option value="large"
+                    >Stuffed Crust Ksh.<span class="stuffed-c-price"
+                      >250</span
+                    ></option
+                  >
+                  <option value="medium"
+                    >Cheese Filled Ksh.<span class="cheese-c-price-price"
+                      >200</span
+                    ></option
+                  >
+                  <option value="small"
+                    >Thin Crust Ksh.<span class="thin-c-price"
+                      >100</span
+                    ></option
+                  >
+                  <option value="small"
+                    >Deep Crust Ksh.<span class="deep-c-price"
+                      >300</span
+                    ></option
+                  >
+                </select>
+              </div>
+            </form>
+          </div>
+          <div id="spw" class="container-fluid text-white mt-5">
+            <h1 class="hc-heading">Choose Pizza Toppings</h1>
+            <form action="">
+              <div id="spw-input">
+                <input type="checkbox" name="Pepperoni" value="70" /><span
+                  class="toppings ml-2"
+                  >Pepperoni <span class="toppings-price">70</span> /=</span
+                ><br />
+                <input type="checkbox" name="Mushroom" value="90" /><span
+                  class="toppings ml-2"
+                  >Mushroom <span class="toppings-price">90</span> /= </span
+                ><br />
+                <input type="checkbox" name="Onions" value="40" /><span
+                  class="toppings ml-2"
+                  >Onions <span class="toppings-price">40</span> /= </span
+                ><br />
+                <input type="checkbox" name="Black olives" value="120" /><span
+                  class="toppings ml-2"
+                  >Black olives
+                  <span class="toppings-price">120</span> /= </span
+                ><br />
+                <input type="checkbox" name="Green peppers" value="110" /><span
+                  class="toppings ml-2"
+                  >Green peppers
+                  <span class="toppings-price">110</span> /= </span
+                ><br />
+                <input type="checkbox" name="Spinach" value="90" /><span
+                  class="toppings ml-2"
+                  >Spinach <span class="toppings-price">90</span> /= </span
+                ><br />
+              </div>
+            </form>
+          </div>
+          <div id="spw" class="container-fluid text-white">
+            <h1 class="hc-heading">
+              How many times would you like to place the same order
+            </h1>
+            <div id="spw-input" class="mb-3">
+              <form action="">
+                <input
+                  type="number"
+                  id="number-of-orders"
+                  placeholder="Number of orders"
+                />
+              </form>
+            </div>
+          </div>
+          <div id="spw" class="container-fluid text-white">
+            <h1 class="hc-heading">Delivery</h1>
+            <div id="spw-input" class="mb-3">
+              <form action="">
+                <input
+                  type="checkbox"
+                  name="delivery"
+                  id="delivery-option"
+                /><span class="toppings ml-2">I want it Delivered</span>
+              </form>
+            </div>
+          </div>
+          <div id="spw" class="container-fluid text-white">
+            <div id="spw-input">
+              <button id="place-order" onclick="placeOrder()">CHECKOUT</button>
+            </div>
+          </div>
+        </div>
+      </div>
 </body>
 </html>
