@@ -7,7 +7,7 @@ This website has been structured using html,css,bootstrap and js
 
 ## Technologies Used
 - HTML & CSS (Bootstrap)
-- JavaScript (jQuery 3.4.1)
+- JavaScript (with jQuery)
 
 ## Behaviour Driven Development
 Displays Form For Entering pizza  Size, Crust and Toppings
