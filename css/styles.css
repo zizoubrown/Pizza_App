@@ -2,6 +2,12 @@
     box-sizing: border-box;
     color: #000000;
 }
+body{
+    background-image: url(../resources/images/pizza-neon-light-signage-1596888.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 .nav{
     width: 100%;
     height: 60px;
