@@ -21,5 +21,8 @@
     padding: 0px 30px;
     font-family:calibri;
     font-weight: bold;
-    color: FFFFFF;
+    color: floralwhite;
+}
+li{
+    list-style: none;
 }
