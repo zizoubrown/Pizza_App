@@ -1,6 +1,6 @@
 *{
     box-sizing: border-box;
-    color: #000000;
+    columns: #000000;
 }
 body{
     background-image: url(../resources/images/pizza-neon-light-signage-1596888.jpg);
@@ -30,8 +30,16 @@ body{
     font-weight: bold;
     color: floralwhite;
 }
+.card{
+    background: inherit;
+}
 li{
     list-style: none;
+}
+button{
+    background-color: #ea272d;
+    border: none;
+    border-radius: 50px;
 }
 #show-order{
     display: none;
